@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 import style from "../styles/footer.module.scss";
 
@@ -27,9 +26,21 @@ export function Footer() {
             <p>Copyright © 2022 5280 Dream Properties. All Rights Reserved.</p>
           </div>
           <div className={style.part2}>
-            <p>
-              Privacy Policy<span>Terms &amp; Conditons</span>
-            </p>
+            <Link
+              className={style.links}
+              href="https://www.termsfeed.com/live/67028efd-3786-4968-9523-5bf49aa2c15b"
+            >
+              Privacy Policy
+            </Link>
+
+            <span style={{ color: "#747474", paddingLeft: "16px" }}>
+              <Link
+                id={style.links}
+                href="https://www.termsfeed.com/live/1ed0ffe7-7e1d-480a-9bfd-ad0babf1c692"
+              >
+                Terms &amp; Conditons
+              </Link>
+            </span>
           </div>
         </div>
       </div>
