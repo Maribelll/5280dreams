@@ -3,6 +3,7 @@ import styles from "../styles/land.module.scss";
 import Slider from "../Components/slider/Slider";
 import { Menu } from "../Components/Menu";
 import { Footer } from "../Components/Footer";
+import Form from "../Components/Form";
 
 export default function Land() {
   return (
@@ -35,7 +36,7 @@ export default function Land() {
           </div>
         </div>
       </div>
-      <Slider />
+      {/* <Slider /> */}
       <div className={styles.item_description}>
         <div className={styles.text_description}>
           <p className={styles.header_description}>Description</p>
@@ -107,6 +108,7 @@ export default function Land() {
           </ul>
         </div>
       </div>
+      <Form />
       <Footer />
     </>
   );

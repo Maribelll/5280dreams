@@ -5,7 +5,7 @@ $haki: #acbfa3;
 $green: #475845;
 $blue: #6174ba;
 $dark_blue: #55659b;
-$gray: #555a68;
+
 $black: #222722;
 
 // БАЗОВАЯ ТИПОГРАФИКА
@@ -114,12 +114,14 @@ p {
   left: 0px;
   top: 0px;
   border-radius: 3px;
+  border: transparent;
   background: rgba(97, 116, 186, 1);
   font-size: 13px;
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0em;
   text-align: center;
+  color: $white;
   &:hover {
     background-color: $dark_blue;
   }
