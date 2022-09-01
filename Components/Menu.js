@@ -16,19 +16,26 @@ export function Menu() {
           <div className={style.menu_ul}>
             <ul>
               <li>
-                <Link href={"/land"}>
+                <Link href={"/land_for_sale"}>
                   <a>Land for Sale</a>
                 </Link>
               </li>
 
               <li>
-                <a>Home for Lease</a>
+                <Link href={"/home_for_lease"}>
+                  <a>Home for Lease</a>
+                </Link>
+              </li>
+
+              <li>
+                <Link href={"/rv_rental"}>
+                  <a>RV Rental</a>
+                </Link>
               </li>
               <li>
-                <a>RV Rental</a>
-              </li>
-              <li>
-                <a>Contact</a>
+                <Link href={"/land_for_sale"}>
+                  <a>Contact</a>
+                </Link>
               </li>
             </ul>
           </div>

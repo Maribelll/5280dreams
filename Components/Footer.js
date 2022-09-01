@@ -8,15 +8,27 @@ export function Footer() {
       <div className={style.footer_container}>
         <div className={style.footer}>
           <div className={style.footer_block}>
-            <p className={style.p_bold}>Explore</p>
+            <p className={style.p_bold}>
+              <Link href={"../rv_rental"}>
+                <a>Explore</a>
+              </Link>
+            </p>
             <p className={style.text}>RV Rental - Denver, CO</p>
           </div>
           <div className={style.footer_block}>
-            <p className={style.p_bold}>Build</p>
+            <p className={style.p_bold}>
+              <Link href={"../land_for_sale"}>
+                <a>Build</a>
+              </Link>
+            </p>
             <p className={style.text}>Land for Sale - Sedalia, MO</p>
           </div>
           <div className={style.footer_block}>
-            <p className={style.p_bold}>Live</p>
+            <p className={style.p_bold}>
+              <Link href={"../home_for_lease"}>
+                <a>Live</a>
+              </Link>
+            </p>
             <p className={style.text}>House for Lease, Sedalia, MO</p>
           </div>
         </div>
