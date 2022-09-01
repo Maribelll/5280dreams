@@ -36,7 +36,7 @@ export default function Land() {
           </div>
         </div>
       </div>
-      {/* <Slider /> */}
+      <Slider />
       <div className={styles.item_description}>
         <div className={styles.text_description}>
           <p className={styles.header_description}>Description</p>
