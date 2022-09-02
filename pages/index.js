@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/home.module.scss";
 import { Menu } from "../Components/Menu";
 import { Footer } from "../Components/Footer";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -40,7 +41,9 @@ export default function Home() {
               brand new, state of the art coach big enough for your whole
               family.
             </p>
-            <button className="button_transparent">See now</button>
+            <Link href={"../rv_rental"}>
+              <button className="button_transparent">See now</button>
+            </Link>
           </div>
           <div className={styles.rent_img2}>
             <Image
@@ -57,7 +60,9 @@ export default function Home() {
         <div className={styles.rent_item_reverse}>
           <div className={styles.rent_text} style={{ marginLeft: "100px" }}>
             <div className={styles.label}>LAND FOR SALE</div>
+
             <h2>Build</h2>
+
             <div className={styles.rent_img2}>
               <Image
                 className={styles.image_index}
@@ -71,7 +76,9 @@ export default function Home() {
               Build your dream home on an exclusive 2.2 acre lot in a prime
               location thats not available to the general public.
             </p>
-            <button className="button_transparent">See now</button>
+            <Link href={"../land_for_sale"}>
+              <button className="button_transparent">See now</button>
+            </Link>
           </div>
           <div className={styles.rent_item}>
             <Image
@@ -104,7 +111,9 @@ export default function Home() {
               <br />
               Florida....welcome home!
             </p>
-            <button className="button_transparent">See now</button>
+            <Link href={"../home_for_lease"}>
+              <button className="button_transparent">See now</button>
+            </Link>
           </div>
           <div className={styles.rent_img}>
             <Image
