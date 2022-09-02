@@ -88,7 +88,7 @@ export default function Rental() {
             <li>SuperSprings ride system</li>
             <li>4.0kW generator</li>
             <li>1000 Watt inverter</li>
-            <Link href={"/"}>
+            <Link href={"../docs/2021 Fleetwood Flair 28A Features Guide.pdf"}>
               <li
                 style={{
                   borderBottom: "solid 1px",
@@ -98,10 +98,10 @@ export default function Rental() {
                   cursor: "pointer",
                 }}
               >
-                Full features list
+                <a>Full features list</a>
               </li>
             </Link>
-            <Link href={"/"}>
+            <Link href={"../docs/2021-Fleetwood-Flair.pdf"}>
               <li
                 style={{
                   borderBottom: "solid 1px",

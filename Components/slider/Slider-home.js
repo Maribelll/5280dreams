@@ -38,7 +38,7 @@ import image28 from "../../public/slider/home/28.JPG";
 import image29 from "../../public/slider/home/29.JPG";
 import image30 from "../../public/slider/home/30.JPG";
 
-import image31 from "../../public/slider/home/31.jpg";
+import image31 from "../../public/slider//home/31.JPG";
 import image32 from "../../public/slider/home/32.JPG";
 import image33 from "../../public/slider/home/33.JPG";
 import image34 from "../../public/slider/home/34.JPG";
