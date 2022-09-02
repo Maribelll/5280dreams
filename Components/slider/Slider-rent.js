@@ -1,4 +1,4 @@
-import { Autoplay, Navigation } from "swiper";
+import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import Fancybox from "./Fancybox";
@@ -42,13 +42,13 @@ export default function Sliderrent() {
             style={{
               maxWidth: "1346px",
             }}
-            modules={[Navigation, Autoplay]}
+            modules={[Navigation]}
             centeredSlides={true}
             speed={1000}
-            autoplay={{
-              delay: 5000,
-              disableOnInteraction: false,
-            }}
+            // autoplay={{
+            //   delay: 5000,
+            //   disableOnInteraction: false,
+            // }}
             navigation={{
               clickable: true,
             }}
