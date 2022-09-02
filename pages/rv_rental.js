@@ -4,6 +4,7 @@ import Slider from "../Components/slider/Slider";
 import { Menu } from "../Components/Menu";
 import { Footer } from "../Components/Footer";
 import Form from "../Components/Form";
+import Link from "next/link";
 
 export default function Rental() {
   return (
@@ -25,14 +26,14 @@ export default function Rental() {
           <div className={styles.land_text}>
             <div className={styles.label}>AVAILABLE NOW</div>
             <h1 className={styles.h3class}>
-              H2.2 acre lot in a new subdivision of Sedalia, MO
+              High-end Class A RV that sleeps up to 8 people
             </h1>
-            <p>Sedalia, MO 65301</p>
+            <p>Pickup location is Denver, Colorado</p>
           </div>
           <div className={styles.land_description}>
-            <p className={styles.description}>2.2 acres</p>
-            <p className={styles.description}>No HOA</p>
-            <p className={styles.description}>$165,900</p>
+            <p className={styles.description}>$379/day</p>
+            <p className={styles.description}>Up to 150 miles/day</p>
+            <p className={styles.description}>Sleeps 8</p>
           </div>
         </div>
       </div>
@@ -87,8 +88,32 @@ export default function Rental() {
             <li>SuperSprings ride system</li>
             <li>4.0kW generator</li>
             <li>1000 Watt inverter</li>
-            <li>Full features list</li>
-            <li>Full RV overview from manufacturer</li>
+            <Link href={"/"}>
+              <li
+                style={{
+                  borderBottom: "solid 1px",
+                  lineHeight: "1.2em",
+                  maxWidth: "114px",
+                  paddingTop: "2px",
+                  cursor: "pointer",
+                }}
+              >
+                Full features list
+              </li>
+            </Link>
+            <Link href={"/"}>
+              <li
+                style={{
+                  borderBottom: "solid 1px",
+                  lineHeight: "1.2em",
+                  maxWidth: "255px",
+                  paddingTop: "5px",
+                  cursor: "pointer",
+                }}
+              >
+                Full RV overview from manufacturer
+              </li>
+            </Link>
           </ul>
         </div>
       </div>

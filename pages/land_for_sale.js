@@ -4,6 +4,7 @@ import Slider from "../Components/slider/Slider";
 import { Menu } from "../Components/Menu";
 import { Footer } from "../Components/Footer";
 import Form from "../Components/Form";
+import Link from "next/link";
 
 export default function Land() {
   return (
@@ -41,73 +42,49 @@ export default function Land() {
         <div className={styles.text_description}>
           <p className={styles.header_description}>Description</p>
           <p className={styles.p_description}>
-            Find your ideal place to call home by traveling in a high-end,
-            modern, state of the art Class A RV that can sleep up to 8 people.
-            Equipped with all the amenities you will need on your adventure....
+            Build your dream home on this huge 2.2 acre lot on a cul-de-sac in a
+            new subdivision of Sedalia, Missouri.
+            <br /> <br />
+            This is an exclusive opportunity to buy and build on a lot that
+            &rsquo;s not available on the market to the general public. Located
+            just outside Sedalia city limits, in brand new neighborhood that
+            &rsquo;s in process of being built by individual owners.
             <br />
             <br />
-            This 2021 Fleetwood Flair 28A has got what it takes to get you into
-            all the parks at only 29 feet, yet it has the sleeping capacity to
-            sleep 8.
-            <br />
-            <br /> With a king-size bed, dinette sleeper, sofa sleeper, and a
-            drop-down Queen size bed; you can easily sleep either 6 or 8.
-            <br />
-            <br /> On those warm summer evenings or cool fall evenings, when
-            there is nothing better than being under the stars and watching a
-            movie, you have an external 50&quot; TV. If the stars are a bit too
-            bright for your liking, go ahead and use your full length power
-            awning with LED light to set a new ambiance for your evening.
-            <br />
-            <br /> The Ford truss Style platform chassis gives you balance,
-            control, a smooth ride, and ample storage space. Ford Tough!
-            <br />
-            <br /> Also we have upgraded this coach with
-            &quot;SuperSprings&quot; ride system to give you an even better
-            cruising experience without the feel of driving a high profile
-            vehicle down the road.
-            <br />
-            <br /> The 4.0kW generator gives you power when not at a campsite,
-            and a 1000 Watt inverter gives you the reserve you need when it is
-            not on.
-            <br />
-            <br /> Beautifully laid out and designed, this feels like a much
-            larger unit. Check out the pics and take it on a road trip yourself.
+            No HOA, only a few simple rules on the type of home you can build
+            but otherwise, they sky is the limit. Enjoy beautiful views of the
+            sunset on your front porch with a cup of tea or host a great back
+            yard barbeque with friends and family.
+            <br /> <br />
+            There is a wooded area at the back of the property and a dry creek
+            which adds a really nice setting to your home.
           </p>
         </div>
 
         <div className={styles.features}>
           <p className={styles.header_features}>Features</p>
           <ul className={styles.features_description}>
-            <li>Class A RV</li>
-            <li>39 ft</li>
-            <li>Sleeps 8</li>
-            <li>External 50&quot; TV</li>
-            <li>Full length power awning w/ LED</li>
-            <li>SuperSprings ride system</li>
-            <li>4.0kW generator</li>
-            <li>1000 Watt inverter</li>
-            <li>Full features list</li>
-            <li>Full RV overview from manufacturer</li>
+            <li> 2.2 acres</li>
+            <li>No HOA</li>
+            <li>Beautiful views</li>
+            <li>Wooded area</li>
+            <Link href={""}>
+              <li
+                style={{
+                  borderBottom: "solid 1px",
+                  lineHeight: "1.2em",
+                  maxWidth: "65px",
+                  paddingTop: "2px",
+                  cursor: "pointer",
+                }}
+              >
+                Plat map
+              </li>
+            </Link>
           </ul>
         </div>
       </div>
 
-      <div className={styles.container_rules}>
-        <div className={styles.rules}>
-          <p className={styles.h_rules}>Rules &amp; Policies</p>
-          <ul className={styles.ul_rules}>
-            <li>
-              Available for minimum of 7 days all the way up to 21 days at a
-              time
-            </li>
-            <li>Pickup location is Denver, Colorado</li>
-            <li>Airport pickup is available</li>
-            <li>Rental rate - $379 per day</li>
-            <li>150 miles per day allowance</li>
-          </ul>
-        </div>
-      </div>
       <Form />
       <Footer />
     </>

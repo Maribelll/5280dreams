@@ -72,16 +72,14 @@ export default function Lease() {
         <div className={styles.features}>
           <p className={styles.header_features}>Features</p>
           <ul className={styles.features_description}>
-            <li>Class A RV</li>
-            <li>39 ft</li>
-            <li>Sleeps 8</li>
-            <li>External 50&quot; TV</li>
-            <li>Full length power awning w/ LED</li>
-            <li>SuperSprings ride system</li>
-            <li>4.0kW generator</li>
-            <li>1000 Watt inverter</li>
-            <li>Full features list</li>
-            <li>Full RV overview from manufacturer</li>
+            <li>Fully furnished</li>
+            <li>Completely remodeled in 2022</li>
+            <li>Brand new stainless steel appliances</li>
+            <li>Electric fireplace</li>
+            <li>New roof installed in 2022</li>
+            <li>Solar Panel system</li>
+            <li>Ample LED Lighting throughout the home</li>
+            <li>Large backyard with fruit trees</li>
           </ul>
         </div>
       </div>
@@ -90,14 +88,14 @@ export default function Lease() {
         <div className={styles.rules}>
           <p className={styles.h_rules}>Rules &amp; Policies</p>
           <ul className={styles.ul_rules}>
+            <li>Minimum 1 year lease required</li>
+            <li>Application fee is $75 which includes background check</li>
+            <li>Deposit amount equals to one month rent</li>
             <li>
-              Available for minimum of 7 days all the way up to 21 days at a
-              time
+              Tenant must transfer utilities into their name within 7 days of
+              move-in
             </li>
-            <li>Pickup location is Denver, Colorado</li>
-            <li>Airport pickup is available</li>
-            <li>Rental rate - $379 per day</li>
-            <li>150 miles per day allowance</li>
+            <li>Trash is included in the rent</li>
           </ul>
         </div>
       </div>
