@@ -1,3 +1,6 @@
+// import Pdf from "../docs/2021 Fleetwood Flair 28A Features Guide.pdf";
+// import Pdf2 from "../docs/2021-Fleetwood-Flair.pdf";
+
 import Head from "next/head";
 import styles from "../styles/land.module.scss";
 import Slider from "../Components/slider/Slider-rent";
@@ -10,7 +13,7 @@ export default function Rental() {
   return (
     <>
       <Head>
-        <title>Land</title>
+        <title>Rv-rental</title>
         <meta charSet="UTF-8"></meta>
         <meta
           name="viewport"
@@ -88,32 +91,30 @@ export default function Rental() {
             <li>SuperSprings ride system</li>
             <li>4.0kW generator</li>
             <li>1000 Watt inverter</li>
-            <Link href={"../docs/2021 Fleetwood Flair 28A Features Guide.pdf"}>
-              <li
-                style={{
-                  borderBottom: "solid 1px",
-                  lineHeight: "1.2em",
-                  maxWidth: "114px",
-                  paddingTop: "2px",
-                  cursor: "pointer",
-                }}
-              >
-                <a>Full features list</a>
-              </li>
-            </Link>
-            <Link href={"../docs/2021-Fleetwood-Flair.pdf"}>
-              <li
-                style={{
-                  borderBottom: "solid 1px",
-                  lineHeight: "1.2em",
-                  maxWidth: "255px",
-                  paddingTop: "5px",
-                  cursor: "pointer",
-                }}
-              >
-                Full RV overview from manufacturer
-              </li>
-            </Link>
+
+            <li
+              style={{
+                borderBottom: "solid 1px",
+                lineHeight: "1.2em",
+                maxWidth: "114px",
+                paddingTop: "2px",
+                cursor: "pointer",
+              }}
+            >
+              Full features list
+            </li>
+
+            <li
+              style={{
+                borderBottom: "solid 1px",
+                lineHeight: "1.2em",
+                maxWidth: "255px",
+                paddingTop: "5px",
+                cursor: "pointer",
+              }}
+            >
+              Full RV overview from manufacturer
+            </li>
           </ul>
         </div>
       </div>

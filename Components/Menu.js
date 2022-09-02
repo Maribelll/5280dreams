@@ -33,7 +33,7 @@ export function Menu() {
                 </Link>
               </li>
               <li>
-                <Link href={"/land_for_sale"}>
+                <Link href={"/contact"}>
                   <a>Contact</a>
                 </Link>
               </li>
