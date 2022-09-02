@@ -8,12 +8,19 @@ import Image from "next/image";
 import image1 from "../../public/slider/land/image1.JPG";
 import image2 from "../../public/slider/land/image2.JPG";
 import image3 from "../../public/slider/land/image3.JPG";
+import image4 from "../../public/slider/land/image4.JPG";
+import image5 from "../../public/slider/land/image5.JPG";
+import image6 from "../../public/slider/land/image6.JPG";
+import image7 from "../../public/slider/land/image7.JPG";
+import image8 from "../../public/slider/land/image8.JPG";
+import image9 from "../../public/slider/land/image9.JPG";
+import image10 from "../../public/slider/land/image10.JPG";
 
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 
-export default function Slider() {
+export default function Sliderland() {
   return (
     <>
       <div className={styles.container_slider}>
@@ -55,20 +62,6 @@ export default function Slider() {
             <SwiperSlide>
               <a
                 data-fancybox="gallery"
-                href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1661886592/rent/slider-land/image1_hetxjw.jpg"
-              >
-                <Image
-                  className={styles.imageSlide}
-                  src={image1}
-                  alt="land"
-                  width={610}
-                  height={397}
-                />
-              </a>
-            </SwiperSlide>
-            <SwiperSlide>
-              <a
-                data-fancybox="gallery"
                 href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1661886594/rent/slider-land/image2_i6yv3a.jpg"
               >
                 <Image
@@ -97,11 +90,11 @@ export default function Slider() {
             <SwiperSlide>
               <a
                 data-fancybox="gallery"
-                href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1661886592/rent/slider-land/image1_hetxjw.jpg"
+                href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1661886591/rent/slider-land/image4_kxzckt.jpg"
               >
                 <Image
                   className={styles.imageSlide}
-                  src={image1}
+                  src={image4}
                   alt="land"
                   width={610}
                   height={397}
@@ -111,11 +104,11 @@ export default function Slider() {
             <SwiperSlide>
               <a
                 data-fancybox="gallery"
-                href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1661886592/rent/slider-land/image1_hetxjw.jpg"
+                href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1661886592/rent/slider-land/image5_lgnv74.jpg"
               >
                 <Image
                   className={styles.imageSlide}
-                  src={image1}
+                  src={image5}
                   alt="land"
                   width={610}
                   height={397}
@@ -125,11 +118,11 @@ export default function Slider() {
             <SwiperSlide>
               <a
                 data-fancybox="gallery"
-                href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1661886592/rent/slider-land/image1_hetxjw.jpg"
+                href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1661886593/rent/slider-land/image6_dnadrl.jpg"
               >
                 <Image
                   className={styles.imageSlide}
-                  src={image1}
+                  src={image6}
                   alt="land"
                   width={610}
                   height={397}
@@ -139,11 +132,11 @@ export default function Slider() {
             <SwiperSlide>
               <a
                 data-fancybox="gallery"
-                href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1661886592/rent/slider-land/image1_hetxjw.jpg"
+                href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1661886593/rent/slider-land/image7_kwszk6.jpg"
               >
                 <Image
                   className={styles.imageSlide}
-                  src={image1}
+                  src={image7}
                   alt="land"
                   width={610}
                   height={397}
@@ -153,11 +146,11 @@ export default function Slider() {
             <SwiperSlide>
               <a
                 data-fancybox="gallery"
-                href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1661886592/rent/slider-land/image1_hetxjw.jpg"
+                href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1661886593/rent/slider-land/image8_uxo9xx.jpg"
               >
                 <Image
                   className={styles.imageSlide}
-                  src={image1}
+                  src={image8}
                   alt="land"
                   width={610}
                   height={397}
@@ -167,11 +160,25 @@ export default function Slider() {
             <SwiperSlide>
               <a
                 data-fancybox="gallery"
-                href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1661886592/rent/slider-land/image1_hetxjw.jpg"
+                href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1661886594/rent/slider-land/image9_itgnql.jpg"
               >
                 <Image
                   className={styles.imageSlide}
-                  src={image1}
+                  src={image9}
+                  alt="land"
+                  width={610}
+                  height={397}
+                />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a
+                data-fancybox="gallery"
+                href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1661886593/rent/slider-land/image10_ayv0nt.jpg"
+              >
+                <Image
+                  className={styles.imageSlide}
+                  src={image10}
                   alt="land"
                   width={610}
                   height={397}

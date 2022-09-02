@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/land.module.scss";
-import Slider from "../Components/slider/Slider";
+import Slider from "../Components/slider/Slider-land";
 import { Menu } from "../Components/Menu";
 import { Footer } from "../Components/Footer";
 import Form from "../Components/Form";
