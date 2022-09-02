@@ -32,13 +32,13 @@ import image22 from "../../public/slider/home/22.JPG";
 import image23 from "../../public/slider/home/23.JPG";
 import image24 from "../../public/slider/home/24.JPG";
 import image25 from "../../public/slider/home/25.JPG";
-import image26 from "../../public/slider/home/26.JPG";
+import image26 from "../../public/slider/home/26.jpg";
 import image27 from "../../public/slider/home/27.JPG";
 import image28 from "../../public/slider/home/28.JPG";
 import image29 from "../../public/slider/home/29.JPG";
 import image30 from "../../public/slider/home/30.JPG";
 
-import image31 from "../../public/slider/home/31.JPG";
+import image31 from "../../public/slider/home/31.jpg";
 import image32 from "../../public/slider/home/32.JPG";
 import image33 from "../../public/slider/home/33.JPG";
 import image34 from "../../public/slider/home/34.JPG";
@@ -49,10 +49,10 @@ import image38 from "../../public/slider/home/38.JPG";
 import image39 from "../../public/slider/home/39.JPG";
 import image40 from "../../public/slider/home/40.JPG";
 
-import image41 from "../../public/slider/home/41.JPG";
-import image42 from "../../public/slider/home/42.JPG";
+import image41 from "../../public/slider/home/41.jpg";
+import image42 from "../../public/slider/home/42.jpg";
 import image43 from "../../public/slider/home/43.JPG";
-import image44 from "../../public/slider/home/44.JPG";
+import image44 from "../../public/slider/home/44.jpg";
 import image45 from "../../public/slider/home/45.JPG";
 
 import "swiper/css";
@@ -710,6 +710,20 @@ export default function Sliderhome() {
                 <Image
                   className={styles.imageSlide}
                   src={image43}
+                  alt="land"
+                  width={610}
+                  height={397}
+                />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a
+                data-fancybox="gallery"
+                href="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662103453/rent/slider-home/44_fsbitg.jpg"
+              >
+                <Image
+                  className={styles.imageSlide}
+                  src={image44}
                   alt="land"
                   width={610}
                   height={397}

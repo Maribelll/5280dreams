@@ -12,7 +12,7 @@ import image4 from "../../public/slider/land/image4.JPG";
 import image5 from "../../public/slider/land/image5.JPG";
 import image6 from "../../public/slider/land/image6.JPG";
 import image7 from "../../public/slider/land/image7.JPG";
-import image8 from "../../public/slider/land/image8.JPG";
+import image8 from "../../public/slider/land/image8.jpg";
 import image9 from "../../public/slider/land/image9.JPG";
 import image10 from "../../public/slider/land/image10.JPG";
 
