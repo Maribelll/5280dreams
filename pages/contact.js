@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "../styles/contact.module.scss";
 import { Menu } from "../Components/Menu";
 import { Footer } from "../Components/Footer";
-import Form from "../Components/Form";
+import Formcontact from "../Components/Formcontact";
 import Layout from "../Components/Layout";
 
 export default function Contact() {
@@ -13,7 +13,7 @@ export default function Contact() {
       <div className={styles.backgr}>
         <Menu />
       </div>
-      <Form />
+      <Formcontact />
 
       <div className={styles.container_dowland}>
         <div className={styles.dowland}>
