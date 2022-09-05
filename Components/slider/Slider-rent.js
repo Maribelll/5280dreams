@@ -121,6 +121,7 @@ export default function Sliderrent() {
               >
                 <Image
                   className={styles.imageSlide}
+                  id={styles.vertical}
                   src={image4}
                   alt="land"
                   width={610}

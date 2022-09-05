@@ -1,21 +1,17 @@
 import style from "../styles/form.module.scss";
-import { useState } from "react";
+
+import { useForm, ValidationError } from "@formspree/react";
 
 export default function Form() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const data = {
-      name,
-      email,
-      phone,
-      message,
-    };
-    console.log(data);
-  };
+  if (state.succeeded) {
+    return (
+      <p style={{ textAlign: "center", fontSize: "24px", margin: "50px auto" }}>
+        Thanks for your submission!
+      </p>
+    );
+  }
   return (
     <div className={style.form_container}>
       <div className={style.form_all}>
@@ -31,35 +27,46 @@ export default function Form() {
         </div>
         <div className={style.form_fields}>
           <form onSubmit={handleSubmit} className={style.form}>
-            <input
-              id="name"
-              type="text"
-              placeholder="Full name"
-              onChange={(e) => setName(e.target.value)}
-            />
-
+            <input id="name" type="text" name="name" placeholder="Full name" />
+            <ValidationError prefix="Name" field="name" errors={state.errors} />
             <input
               id="email"
               type="email"
+              name="email"
               placeholder="Email address"
-              onChange={(e) => setEmail(e.target.value)}
             />
-            <input
-              id="phone"
-              type="number"
-              placeholder="Phone"
-              onChange={(e) => setName(e.target.value)}
+            <ValidationError
+              prefix="Email"
+              field="email"
+              errors={state.errors}
+            />
+
+            <input id="phone" type="number" name="phone" placeholder="Phone" />
+            <ValidationError
+              prefix="Phone"
+              field="phone"
+              errors={state.errors}
             />
             <textarea
               id="message"
+              name="message"
               type="text"
               rows="4"
               placeholder="I’m interested in this property."
-              onChange={(e) => setMessage(e.target.value)}
             />
-            <button className="button_blue" type="submit">
+            <ValidationError
+              prefix="Message"
+              field="message"
+              errors={state.errors}
+            />
+            <button
+              className="button_blue"
+              type="submit"
+              disabled={state.submitting}
+            >
               Contact
             </button>
+            <ValidationError errors={state.errors} />
           </form>
         </div>
       </div>
