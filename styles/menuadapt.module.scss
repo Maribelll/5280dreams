@@ -1,0 +1,120 @@
+$pearl: #f4f1eb;
+$font-family: "Noto Sans", sans-serif;
+.menu_ul {
+  position: absolute;
+  padding-top: 160px;
+  left: -190px;
+  top: 50px;
+  list-style: none;
+  overflow: auto;
+  height: 100%;
+  list-style-type: none;
+  font-family: $font-family;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #f4f1eb;
+  z-index: 100;
+}
+.navbar {
+  height: 78px;
+  background-color: #f4f1eb;
+
+  .logo_up {
+    width: 192px;
+    padding: 14px 0 160.13px 14px;
+  }
+
+  .menuBtn {
+    position: absolute;
+
+    z-index: 1000;
+    opacity: 0;
+    right: 15px;
+    top: 23px;
+    width: 30px;
+    height: 21px;
+    &:checked {
+      ~ {
+        .menu_ul {
+          padding-left: 0;
+          top: 50px;
+          left: 0px;
+          width: 100%;
+
+          transition: 0.5s;
+
+          li {
+            padding-bottom: 46px;
+          }
+        }
+        .menuIcon {
+          .navicon {
+            background: transparent;
+            &:before {
+              transform: rotate(-45deg);
+            }
+            &:after {
+              transform: rotate(45deg);
+            }
+          }
+          &:not(.steps) {
+            .navicon {
+              &:before {
+                top: 0;
+              }
+              &:after {
+                top: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.menuIcon {
+  cursor: pointer;
+  display: inline-block;
+  padding: 28px 20px;
+  position: absolute;
+  top: 8px;
+  right: 0;
+  user-select: none;
+  .navicon {
+    background: #222722;
+    display: block;
+    height: 2px;
+    margin: 3px 0;
+    position: relative;
+    transition: 0.3s ease-out;
+    width: 27px;
+    &:before {
+      background: #222722;
+      content: "";
+      display: block;
+      height: 100%;
+      position: absolute;
+      transition: all 0.3s ease-out;
+      width: 100%;
+      top: 5px;
+    }
+    &:after {
+      background: #222722;
+      content: "";
+      display: block;
+      height: 100%;
+      position: absolute;
+      transition: all 0.3s ease-out;
+      width: 100%;
+      top: -5px;
+    }
+  }
+}
+@media (min-width: 820px) {
+  .navbar {
+    display: none;
+  }
+}

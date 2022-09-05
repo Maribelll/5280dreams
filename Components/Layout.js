@@ -6,7 +6,7 @@ export default function Layout({ title, keywords, description, children }) {
         <meta charSet="UTF-8"></meta>
         <meta
           name="viewport"
-          content="width=device-width, initial-scale=1.0"
+          content="width=device-width, initial-scale=1"
         ></meta>
         <title>{title}</title>
         <meta name="description" content={description} />

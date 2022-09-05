@@ -57,3 +57,8 @@ $container-slider: 1346px;
     }
   }
 }
+@media (max-width: 820px) {
+  .menu_all {
+    display: none;
+  }
+}

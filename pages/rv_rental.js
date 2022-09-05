@@ -8,18 +8,12 @@ import { Menu } from "../Components/Menu";
 import { Footer } from "../Components/Footer";
 import Form from "../Components/Form";
 import Link from "next/link";
+import Layout from "../Components/Layout";
 
 export default function Rental() {
   return (
-    <>
-      <Head>
-        <title>Rv-rental</title>
-        <meta charSet="UTF-8"></meta>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0"
-        ></meta>
-      </Head>
+    <Layout title="rv" keywords="" description="">
+      <Head />
 
       <div className={styles.backgr}>
         <Menu />
@@ -136,6 +130,6 @@ export default function Rental() {
       </div>
       <Form />
       <Footer />
-    </>
+    </Layout>
   );
 }

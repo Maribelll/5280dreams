@@ -1,3 +1,7 @@
+$pearl: #f4f1eb;
+.backgr {
+  background-color: $pearl;
+}
 .container_dowland {
   .dowland {
     max-width: 950px;
@@ -20,10 +24,7 @@
     }
   }
 }
-.thanks {
-  text-align: center;
-  font-size: 24px;
-}
+
 @media (max-width: 820px) {
   .container_dowland {
     .dowland {

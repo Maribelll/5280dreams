@@ -1,3 +1,5 @@
+$font-family: "Noto Sans", sans-serif;
+
 .form_container {
   margin-top: 42px;
   .form_all {
@@ -41,6 +43,11 @@
           line-height: 150%;
           padding-left: 23.5px;
           border-radius: 3.35714px;
+          &::placeholder {
+            color: #555a68;
+            font-size: 13px;
+            font-family: $font-family;
+          }
         }
         textarea {
           height: 135px;

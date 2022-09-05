@@ -3,22 +3,17 @@ import styles from "../styles/contact.module.scss";
 import { Menu } from "../Components/Menu";
 import { Footer } from "../Components/Footer";
 import Formcontact from "../Components/Formcontact";
+import Layout from "../Components/Layout";
 
 export default function Contact() {
   return (
-    <>
-      <Head>
-        <title>Contact</title>
-        <meta charSet="UTF-8"></meta>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0"
-        ></meta>
-      </Head>
+    <Layout title="contact" keywords="" description="">
+      <Head />
 
       <div className={styles.backgr}>
         <Menu />
       </div>
+
       <Formcontact />
       <div className={styles.container_dowland}>
         <div className={styles.dowland}>
@@ -33,6 +28,6 @@ export default function Contact() {
         </div>
       </div>
       <Footer />
-    </>
+    </Layout>
   );
 }

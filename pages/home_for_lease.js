@@ -4,22 +4,17 @@ import Slider from "../Components/slider/Slider-home";
 import { Menu } from "../Components/Menu";
 import { Footer } from "../Components/Footer";
 import Form from "../Components/Form";
+import Layout from "../Components/Layout";
 
 export default function Lease() {
   return (
-    <>
-      <Head>
-        <title>Home for Lease</title>
-        <meta charSet="UTF-8"></meta>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0"
-        ></meta>
-      </Head>
+    <Layout title="Lease" keywords="" description="">
+      <Head />
 
       <div className={styles.backgr}>
         <Menu />
       </div>
+
       <div className={styles.container_land_block}>
         <div className={styles.land_block}>
           <div className={styles.land_text}>
@@ -101,6 +96,6 @@ export default function Lease() {
       </div>
       <Form />
       <Footer />
-    </>
+    </Layout>
   );
 }

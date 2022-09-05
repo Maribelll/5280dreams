@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Logo from "../public/Logo.svg";
 import style from "../styles/menu.module.scss";
+import { Menuadapt } from "./Menuadapt";
 
 export function Menu() {
   return (
@@ -41,6 +42,7 @@ export function Menu() {
           </div>
         </div>
       </div>
+      <Menuadapt />
     </>
   );
 }
