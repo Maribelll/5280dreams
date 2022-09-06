@@ -1,6 +1,3 @@
-// import Pdf from "../docs/2021 Fleetwood Flair 28A Features Guide.pdf";
-// import Pdf2 from "../docs/2021-Fleetwood-Flair.pdf";
-
 import Head from "next/head";
 import styles from "../styles/land.module.scss";
 import Slider from "../Components/slider/Slider-rent";
@@ -18,6 +15,7 @@ export default function Rental() {
       <div className={styles.backgr}>
         <Menu />
       </div>
+
       <div className={styles.container_land_block}>
         <div className={styles.land_block} id={styles.adapttop}>
           <div className={styles.land_text}>

@@ -6,6 +6,7 @@ import "swiper/css/scrollbar";
 import Fancybox from "./Fancybox";
 
 import styles from "../../styles/slider.module.scss";
+
 import Image from "next/image";
 import image1 from "../../public/slider/rent/1.JPG";
 import image2 from "../../public/slider/rent/2.JPG";

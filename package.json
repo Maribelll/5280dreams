@@ -7,13 +7,19 @@
     "build": "next build && next export",
     "prestart": "npm run export",
     "start": "npm run start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "download-webviewer": "npx @pdftron/webviewer-downloader --webviewerLocation ./public/docs/"
   },
   "dependencies": {
     "@fancyapps/ui": "^4.0.31",
     "@formspree/react": "^2.3.4-beta.2",
+    "@pdftron/webviewer": "^8.8.0",
+    "@react-pdf-viewer/core": "^3.7.0",
+    "@react-pdf-viewer/default-layout": "^3.7.0",
     "date-fns": "^2.29.2",
+    "file-loader": "^6.2.0",
     "next": "12.2.5",
+    "pdfjs-dist": "^2.15.349",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-pdf": "^5.7.2",
