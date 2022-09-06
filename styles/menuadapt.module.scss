@@ -16,11 +16,14 @@ $font-family: "Noto Sans", sans-serif;
   letter-spacing: 0em;
   text-align: center;
   background-color: #f4f1eb;
-  z-index: 100;
+  z-index: 200;
 }
 .navbar {
   height: 78px;
   background-color: #f4f1eb;
+  width: 100%;
+  z-index: 100;
+  position: fixed;
 
   .logo_up {
     width: 192px;
@@ -43,11 +46,13 @@ $font-family: "Noto Sans", sans-serif;
           left: 0px;
           width: 105%;
           transition: 0.5s;
+          position: fixed;
 
           li {
             padding-bottom: 46px;
           }
         }
+
         .menuIcon {
           .navicon {
             background: transparent;
@@ -73,6 +78,7 @@ $font-family: "Noto Sans", sans-serif;
     }
   }
 }
+
 .menuIcon {
   cursor: pointer;
   display: inline-block;

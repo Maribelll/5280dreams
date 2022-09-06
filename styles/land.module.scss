@@ -46,6 +46,9 @@ $container-slider: 1346px;
   background-color: $pearl;
   padding-top: 100px;
   padding-bottom: 59px;
+  #adapttop {
+    margin-top: 40px;
+  }
   .land_block {
     display: flex;
     flex-direction: row;

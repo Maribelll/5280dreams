@@ -4,6 +4,8 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <link rel="stylesheet" href="https://use.typekit.net/wyk5lvq.css" />
+
           <meta property="og:type" content="website" />
           <meta property="og:site_name" content="Dream" />
           <meta property="og:title" content="Dream" />

@@ -9,7 +9,7 @@ export function Menuadapt() {
       <nav className={style.navbar}>
         <div className={style.logo_up}>
           <Link href={"/"}>
-            <Image src={Logo} alt="logo" width={180} height={43} />
+            <Image src={Logo} alt="logo" width={192} height={50} />
           </Link>
         </div>
         <input className={style.menuBtn} type="checkbox" id={style.menuBtn} />

@@ -16,7 +16,7 @@ export default function Lease() {
       </div>
 
       <div className={styles.container_land_block}>
-        <div className={styles.land_block}>
+        <div className={styles.land_block} id={styles.adapttop}>
           <div className={styles.land_text}>
             <div className={styles.label}>Available in August 2023</div>
             <h1 className={styles.h3class}>
