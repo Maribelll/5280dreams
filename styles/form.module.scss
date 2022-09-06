@@ -1,4 +1,12 @@
 $font-family: "Noto Sans", sans-serif;
+$white: #ffffff;
+$pearl: #f4f1eb;
+$grey: #555a68;
+$haki: #acbfa3;
+$green: #475845;
+$blue: #6174ba;
+$dark_blue: #55659b;
+$black: #222722;
 
 .form_container {
   margin-top: 42px;
@@ -12,7 +20,7 @@ $font-family: "Noto Sans", sans-serif;
     align-items: center;
     justify-content: space-around;
     .form_text {
-      color: #ffffff;
+      color: $white;
       max-width: 313px;
 
       h4 {
@@ -24,6 +32,7 @@ $font-family: "Noto Sans", sans-serif;
         line-height: 26px;
         letter-spacing: 0em;
         text-align: left;
+        color: $white;
       }
     }
     .form_fields {
@@ -32,7 +41,7 @@ $font-family: "Noto Sans", sans-serif;
         flex-direction: column;
 
         input {
-          color: #555a68;
+          color: $grey;
           width: 329px;
           height: 45.88px;
           margin-bottom: 14.55px;
@@ -43,8 +52,9 @@ $font-family: "Noto Sans", sans-serif;
           line-height: 150%;
           padding-left: 23.5px;
           border-radius: 3.35714px;
+          border: transparent;
           &::placeholder {
-            color: #555a68;
+            color: $grey;
             font-size: 13px;
             font-family: $font-family;
           }
@@ -60,6 +70,10 @@ $font-family: "Noto Sans", sans-serif;
           padding-left: 23.5px;
           padding-top: 14.55px;
           border-radius: 3.35714px;
+          &::placeholder {
+            font-family: $font-family;
+            color: $grey;
+          }
         }
       }
     }

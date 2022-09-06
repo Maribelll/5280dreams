@@ -64,14 +64,14 @@ $container-slider: 1346px;
         letter-spacing: 0em;
         text-align: left;
         color: $black;
-        max-width: 360px;
+        max-width: 430px;
       }
       p {
         font-size: 16px;
         font-weight: 400;
         line-height: 26px;
         letter-spacing: 0em;
-        color: $black;
+        color: $grey;
       }
     }
     .land_description {
@@ -85,6 +85,7 @@ $container-slider: 1346px;
       .description::before {
         content: "+";
         padding-right: 10px;
+        color: $grey;
       }
     }
   }

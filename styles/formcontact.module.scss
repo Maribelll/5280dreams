@@ -1,3 +1,13 @@
+$font-family: "Noto Sans", sans-serif;
+$white: #ffffff;
+$pearl: #f4f1eb;
+$grey: #555a68;
+$haki: #acbfa3;
+$green: #475845;
+$blue: #6174ba;
+$dark_blue: #55659b;
+
+$black: #222722;
 .form_container {
   background-color: #555a68;
   .form_all {
@@ -10,7 +20,7 @@
     align-items: center;
     justify-content: space-around;
     .form_text {
-      color: #ffffff;
+      color: $white;
       max-width: 313px;
 
       h4 {
@@ -22,12 +32,20 @@
         line-height: 26px;
         letter-spacing: 0em;
         text-align: left;
+        color: $white;
       }
     }
     .form_fields {
       .form {
         display: flex;
         flex-direction: column;
+        .form_all {
+          .form_text {
+            p {
+              color: $white;
+            }
+          }
+        }
 
         input {
           color: #555a68;
@@ -41,11 +59,16 @@
           line-height: 150%;
           padding-left: 23.5px;
           border-radius: 3.35714px;
+          border: transparent;
+          &::placeholder {
+            font-family: $font-family;
+            color: $grey;
+          }
         }
         textarea {
           height: 135px;
           margin-bottom: 14.55px;
-          font-family: "Noto Sans";
+          font-family: $font-family;
           font-style: normal;
           font-weight: 400;
           font-size: 13px;
@@ -53,6 +76,10 @@
           padding-left: 23.5px;
           padding-top: 14.55px;
           border-radius: 3.35714px;
+          &::placeholder {
+            font-family: $font-family;
+            color: $grey;
+          }
         }
       }
     }

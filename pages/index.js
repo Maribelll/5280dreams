@@ -74,7 +74,7 @@ export default function Home() {
             </div>
             <p className={styles.paragraph}>
               Build your dream home on an exclusive 2.2 acre lot in a prime
-              location thats not available to the general public.
+              location that&apos;s not available to the general public.
             </p>
             <Link href={"../land_for_sale"}>
               <button className="button_transparent">See now</button>

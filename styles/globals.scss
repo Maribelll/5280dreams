@@ -78,7 +78,7 @@ h4 {
   font-size: 16px;
   font-weight: 700;
   line-height: 26px;
-  letter-spacing: 0em;
+  letter-spacing: 0.075em;
   text-align: left;
   color: $blue;
   text-transform: uppercase;
@@ -89,6 +89,7 @@ p {
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0em;
+  color: $black;
 }
 .button_transparent {
   cursor: pointer;
