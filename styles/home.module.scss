@@ -101,9 +101,12 @@ $container-slider: 1346px;
     // margin: 0 0 0 20%;
     position: absolute;
     left: 12%;
-    top: 15%;
+    top: 12.5%;
     z-index: 10;
     color: $white;
+    h1 {
+      margin-bottom: 10px;
+    }
   }
   .menu_up {
     padding: 0 10px;
@@ -134,6 +137,13 @@ $container-slider: 1346px;
   }
 }
 .container {
+  transition: 1s;
+  border-radius: 5px;
+  &:hover {
+    box-shadow: 0px 0px 25px rgba(41, 47, 53, 0.22);
+
+    transition: 1s;
+  }
   .rent_item {
     display: flex;
     flex-direction: row;
