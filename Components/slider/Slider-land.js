@@ -1,4 +1,4 @@
-import { Navigation } from "swiper";
+import { EffectCreative, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import Fancybox from "./Fancybox";
@@ -19,6 +19,7 @@ import image10 from "../../public/slider/land/image10.JPG";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
+import "swiper/css/effect-creative";
 
 export default function Sliderland() {
   return (
@@ -29,7 +30,7 @@ export default function Sliderland() {
           style={{
             maxWidth: "2300px",
           }}
-          modules={[Navigation]}
+          modules={[Navigation, EffectCreative]}
           centeredSlides={true}
           initialSlide={1}
           speed={1000}
@@ -38,8 +39,9 @@ export default function Sliderland() {
           //   disableOnInteraction: false,
           // }}
           navigation={{
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+            clickable: true,
+            // nextEl: ".swiper-button-next",
+            // prevEl: ".swiper-button-prev",
           }}
           // loop={true}
           breakpoints={{
