@@ -38,7 +38,8 @@ export default function Sliderland() {
           //   disableOnInteraction: false,
           // }}
           navigation={{
-            clickable: true,
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
           }}
           // loop={true}
           breakpoints={{
