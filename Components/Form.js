@@ -8,9 +8,22 @@ export default function Form() {
 
   if (state.succeeded) {
     return (
-      <p style={{ textAlign: "center", fontSize: "24px", margin: "50px auto" }}>
-        Thanks for your submission!
-      </p>
+      <div className={style.thanks}>
+        <div className={style.thanks_block}>
+          <h2 style={{ color: "white", textAlign: "center", fontSize: "32px" }}>
+            Thank you!
+          </h2>
+          <p
+            style={{
+              color: "white",
+              textAlign: "center",
+              fontSize: "16px",
+            }}
+          >
+            We’ll get back to you as soon as possible.
+          </p>
+        </div>
+      </div>
     );
   }
   return (

@@ -44,7 +44,7 @@ $container-slider: 1346px;
 .container_land_block {
   width: 100%;
   background-color: $pearl;
-  padding-top: 100px;
+  padding-top: 64px;
   padding-bottom: 59px;
   #adapttop {
     margin-top: 40px;
@@ -68,6 +68,7 @@ $container-slider: 1346px;
         text-align: left;
         color: $black;
         max-width: 430px;
+        padding-right: 20px;
       }
       p {
         font-size: 16px;

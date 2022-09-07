@@ -48,11 +48,11 @@ $black: #222722;
         }
 
         input {
-          color: #555a68;
+          color: $grey;
           width: 329px;
           height: 45.88px;
           margin-bottom: 14.55px;
-          font-family: "Noto Sans";
+          font-family: $font-family;
           font-style: normal;
           font-weight: 400;
           font-size: 13px;
@@ -66,6 +66,7 @@ $black: #222722;
           }
         }
         textarea {
+          color: $grey;
           height: 135px;
           margin-bottom: 14.55px;
           font-family: $font-family;
@@ -79,10 +80,26 @@ $black: #222722;
           &::placeholder {
             font-family: $font-family;
             color: $grey;
+            font-size: 13px;
           }
         }
       }
     }
+  }
+}
+.thanks {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #555a68;
+  // height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .thanks_block {
+    padding: 200px 10px;
+    margin: 0;
   }
 }
 @media (max-width: 820px) {
