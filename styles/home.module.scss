@@ -101,7 +101,7 @@ $container-slider: 1346px;
     // margin: 0 0 0 20%;
     position: absolute;
     left: 12%;
-    top: 12.5%;
+
     z-index: 10;
     color: $white;
     h1 {
@@ -264,6 +264,7 @@ $container-slider: 1346px;
   .background {
     background-image: url("https://res.cloudinary.com/dzpwjmq0x/image/upload/v1660751955/rent/header_nuh9wi.jpg");
     .main_text {
+      top: 8%;
       h1 {
         font-size: 44px;
         font-weight: 400;
