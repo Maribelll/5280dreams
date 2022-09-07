@@ -21,12 +21,29 @@ export default function Home() {
           <p>Home by the beach, land in the country or tour the US in an RV.</p>
         </div>
       </div>
+      <Link href={"../rv_rental"}>
+        <div className={styles.container}>
+          <div className={styles.rent_item}>
+            <div className={styles.rent_text}>
+              <div className={styles.label}>RV RENTAL</div>
+              <h2>Explore</h2>
+              <div className={styles.rent_img2}>
+                <Image
+                  src="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1660753331/rent/_explore_xzwukj.jpg"
+                  alt=""
+                  width={600}
+                  height={329}
+                  className={styles.image_index}
+                />
+              </div>
+              <p className={styles.paragraph}>
+                Find that place you will call home by exploring the country in
+                our brand new, state of the art coach big enough for your whole
+                family.
+              </p>
 
-      <div className={styles.container}>
-        <div className={styles.rent_item}>
-          <div className={styles.rent_text}>
-            <div className={styles.label}>RV RENTAL</div>
-            <h2>Explore</h2>
+              <button className="button_transparent">See now</button>
+            </div>
             <div className={styles.rent_img2}>
               <Image
                 src="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1660753331/rent/_explore_xzwukj.jpg"
@@ -36,34 +53,34 @@ export default function Home() {
                 className={styles.image_index}
               />
             </div>
-            <p className={styles.paragraph}>
-              Find that place you will call home by exploring the country in our
-              brand new, state of the art coach big enough for your whole
-              family.
-            </p>
-            <Link href={"../rv_rental"}>
-              <button className="button_transparent">See now</button>
-            </Link>
-          </div>
-          <div className={styles.rent_img2}>
-            <Image
-              src="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1660753331/rent/_explore_xzwukj.jpg"
-              alt=""
-              width={600}
-              height={329}
-              className={styles.image_index}
-            />
           </div>
         </div>
-      </div>
-      <div className={styles.container}>
-        <div className={styles.rent_item_reverse}>
-          <div className={styles.rent_text} style={{ marginLeft: "100px" }}>
-            <div className={styles.label}>LAND FOR SALE</div>
+      </Link>
+      <Link href={"../land_for_sale"}>
+        <div className={styles.container}>
+          <div className={styles.rent_item_reverse}>
+            <div className={styles.rent_text} style={{ marginLeft: "100px" }}>
+              <div className={styles.label}>LAND FOR SALE</div>
 
-            <h2>Build</h2>
+              <h2>Build</h2>
 
-            <div className={styles.rent_img2}>
+              <div className={styles.rent_img2}>
+                <Image
+                  className={styles.image_index}
+                  src="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1660753406/rent/_build_f7dhz2.jpg"
+                  alt=""
+                  width={600}
+                  height={329}
+                />
+              </div>
+              <p className={styles.paragraph}>
+                Build your dream home on an exclusive 2.2 acre lot in a prime
+                location that&apos;s not available to the general public.
+              </p>
+
+              <button className="button_transparent">See now</button>
+            </div>
+            <div className={styles.rent_item}>
               <Image
                 className={styles.image_index}
                 src="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1660753406/rent/_build_f7dhz2.jpg"
@@ -72,60 +89,44 @@ export default function Home() {
                 height={329}
               />
             </div>
-            <p className={styles.paragraph}>
-              Build your dream home on an exclusive 2.2 acre lot in a prime
-              location that&apos;s not available to the general public.
-            </p>
-            <Link href={"../land_for_sale"}>
-              <button className="button_transparent">See now</button>
-            </Link>
-          </div>
-          <div className={styles.rent_item}>
-            <Image
-              className={styles.image_index}
-              src="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1660753406/rent/_build_f7dhz2.jpg"
-              alt=""
-              width={600}
-              height={329}
-            />
           </div>
         </div>
-      </div>
+      </Link>
+      <Link href={"../home_for_lease"}>
+        <div className={styles.container}>
+          <div className={styles.rent_item}>
+            <div className={styles.rent_text}>
+              <div className={styles.label}>HOME FOR LEASE</div>
+              <h2>Live</h2>
+              <div className={styles.rent_img2}>
+                <Image
+                  className={styles.image_index}
+                  src="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1660753341/rent/_live_k4avws.jpg"
+                  alt=""
+                  width={600}
+                  height={329}
+                />
+              </div>
+              <p className={styles.paragraph}>
+                Enjoy life in sunny Southwest
+                <br />
+                Florida....welcome home!
+              </p>
 
-      <div className={styles.container}>
-        <div className={styles.rent_item}>
-          <div className={styles.rent_text}>
-            <div className={styles.label}>HOME FOR LEASE</div>
-            <h2>Live</h2>
-            <div className={styles.rent_img2}>
+              <button className="button_transparent">See now</button>
+            </div>
+            <div className={styles.rent_img}>
               <Image
-                className={styles.image_index}
                 src="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1660753341/rent/_live_k4avws.jpg"
                 alt=""
                 width={600}
                 height={329}
+                className={styles.image_index}
               />
             </div>
-            <p className={styles.paragraph}>
-              Enjoy life in sunny Southwest
-              <br />
-              Florida....welcome home!
-            </p>
-            <Link href={"../home_for_lease"}>
-              <button className="button_transparent">See now</button>
-            </Link>
-          </div>
-          <div className={styles.rent_img}>
-            <Image
-              src="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1660753341/rent/_live_k4avws.jpg"
-              alt=""
-              width={600}
-              height={329}
-              className={styles.image_index}
-            />
           </div>
         </div>
-      </div>
+      </Link>
       <Footer />
     </>
   );
