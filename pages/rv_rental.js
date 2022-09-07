@@ -84,29 +84,33 @@ export default function Rental() {
             <li>4.0kW generator</li>
             <li>1000 Watt inverter</li>
 
-            <li
-              style={{
-                borderBottom: "solid 1px",
-                lineHeight: "1.2em",
-                maxWidth: "114px",
-                paddingTop: "2px",
-                cursor: "pointer",
-              }}
-            >
-              Full features list
-            </li>
+            <Link href={"/full_features_list"}>
+              <li
+                style={{
+                  borderBottom: "solid 1px",
+                  lineHeight: "1.2em",
+                  maxWidth: "114px",
+                  paddingTop: "2px",
+                  cursor: "pointer",
+                }}
+              >
+                Full features list
+              </li>
+            </Link>
 
-            <li
-              style={{
-                borderBottom: "solid 1px",
-                lineHeight: "1.2em",
-                maxWidth: "255px",
-                paddingTop: "5px",
-                cursor: "pointer",
-              }}
-            >
-              Full RV overview from manufacturer
-            </li>
+            <Link href={"/full_rv_overview_from_manufacturer"}>
+              <li
+                style={{
+                  borderBottom: "solid 1px",
+                  lineHeight: "1.2em",
+                  maxWidth: "255px",
+                  paddingTop: "5px",
+                  cursor: "pointer",
+                }}
+              >
+                Full RV overview from manufacturer
+              </li>
+            </Link>
           </ul>
         </div>
       </div>

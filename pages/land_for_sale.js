@@ -62,7 +62,7 @@ export default function Land() {
             <li>No HOA</li>
             <li>Beautiful views</li>
             <li>Wooded area</li>
-            <Link href={""}>
+            <Link href={"/plat_map"}>
               <li
                 style={{
                   borderBottom: "solid 1px",
