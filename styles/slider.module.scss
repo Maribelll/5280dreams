@@ -1,6 +1,6 @@
 .container_slider {
   background-color: #f4f1eb;
-  padding-bottom: 88px;
+  padding: 88px 60px;
 }
 
 .imageSlide {
@@ -8,4 +8,15 @@
   height: "397px";
   overflow: hidden;
   border-radius: 5px;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: red !important;
+}
+@media (max-width: 900px) {
+  .container_slider {
+    background-color: #f4f1eb;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
