@@ -39,14 +39,14 @@ export default function Land() {
             Build your dream home on this huge 2.2 acre lot on a cul-de-sac in a
             new subdivision of Sedalia, Missouri.
             <br /> <br />
-            This is an exclusive opportunity to buy and build on a lot that
-            &rsquo;s not available on the market to the general public. Located
-            just outside Sedalia city limits, in brand new neighborhood that
-            &rsquo;s in process of being built by individual owners.
+            This is an exclusive opportunity to buy and build on a lot
+            that&rsquo;s not available on the market to the general public.
+            Located just outside Sedalia city limits, in brand new neighborhood
+            that&rsquo;s in process of being built by individual owners.
             <br />
             <br />
             No HOA, only a few simple rules on the type of home you can build
-            but otherwise, they sky is the limit. Enjoy beautiful views of the
+            but otherwise, the sky is the limit. Enjoy beautiful views of the
             sunset on your front porch with a cup of tea or host a great back
             yard barbeque with friends and family.
             <br /> <br />

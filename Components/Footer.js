@@ -26,7 +26,7 @@ export function Footer() {
               <a className={style.p_bold}>Live</a>
             </Link>
 
-            <p className={style.text}>House for Lease, Sedalia, MO</p>
+            <p className={style.text}>House for Lease, North Port, FL</p>
           </div>
         </div>
         <hr className={style.hr} />
