@@ -8,7 +8,7 @@ import Layout from "../Components/Layout";
 export default function Contact() {
   return (
     <Layout
-      title="cContact - 5280 Dream Properties"
+      title="Contact - 5280 Dream Properties"
       keywords="contact 5280 dream properties"
       description="Contact us to get more info or schedule a showing."
     >
