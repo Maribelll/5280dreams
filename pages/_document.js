@@ -19,7 +19,10 @@ export default class MyDocument extends Document {
           />
           <meta property="og:url" content="https://5280dreamproperties.com" />
           <meta property="og:locale" content="en_EN" />
-          <meta property="og:image" content="/public/meta5280.jpg" />
+          <meta
+            property="og:image"
+            content="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662635499/rent/meta5280_dxzpek.jpg"
+          />
           <meta property="og:image:width" content="300" />
           <meta property="og:image:height" content="200" />
         </Head>
