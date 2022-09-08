@@ -124,7 +124,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image1}
-                alt="slide2"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -138,7 +138,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image2}
-                alt="slide2"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -152,7 +152,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image3}
-                alt="slide3"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -166,7 +166,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image4}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -180,7 +180,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image5}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -194,7 +194,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image6}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -208,7 +208,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image7}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -222,7 +222,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image8}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -236,7 +236,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image9}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -250,7 +250,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image10}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -264,7 +264,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image11}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -278,7 +278,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image12}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -293,7 +293,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image13}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -307,7 +307,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image14}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -321,7 +321,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image15}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -335,7 +335,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image16}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -349,7 +349,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image17}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -363,7 +363,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image18}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -377,7 +377,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image19}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -391,7 +391,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image20}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -406,7 +406,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image21}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -420,7 +420,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image22}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -434,7 +434,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image23}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -448,7 +448,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image24}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -462,7 +462,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image25}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -476,7 +476,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image26}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -490,7 +490,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image27}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -504,7 +504,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image28}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -518,7 +518,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image29}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -532,7 +532,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image30}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -546,7 +546,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image31}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -560,7 +560,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image32}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -574,7 +574,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image33}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -588,7 +588,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image34}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -602,7 +602,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image35}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -616,7 +616,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image36}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -630,7 +630,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image37}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -644,7 +644,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image38}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -658,7 +658,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image39}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -672,7 +672,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image40}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -686,7 +686,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image30}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -700,7 +700,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image41}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -714,7 +714,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image42}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -728,7 +728,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image43}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -742,7 +742,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image44}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />
@@ -756,7 +756,7 @@ export default function Sliderhome() {
               <Image
                 className={styles.imageSlide}
                 src={image45}
-                alt="land"
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach."
                 width={610}
                 height={397}
               />

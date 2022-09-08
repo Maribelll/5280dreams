@@ -4,7 +4,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link rel="icon" href="/public/favicon.ico" />
+          <link rel="icon" href="/favicon.ico" />
           <link rel="stylesheet" href="https://use.typekit.net/wyk5lvq.css" />
 
           <meta property="og:type" content="website" />

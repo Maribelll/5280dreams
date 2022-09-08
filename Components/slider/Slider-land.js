@@ -86,7 +86,7 @@ export default function Sliderland() {
               <Image
                 className={styles.imageSlide}
                 src={image2}
-                alt="slide2"
+                alt="Land for sale in Sedalia, MO."
                 width={610}
                 height={397}
               />
@@ -100,7 +100,7 @@ export default function Sliderland() {
               <Image
                 className={styles.imageSlide}
                 src={image3}
-                alt="slide3"
+                alt="Land for sale in Sedalia, MO."
                 width={610}
                 height={397}
               />
@@ -114,7 +114,7 @@ export default function Sliderland() {
               <Image
                 className={styles.imageSlide}
                 src={image4}
-                alt="land"
+                alt="Land for sale in Sedalia, MO."
                 width={610}
                 height={397}
               />
@@ -128,7 +128,7 @@ export default function Sliderland() {
               <Image
                 className={styles.imageSlide}
                 src={image5}
-                alt="land"
+                alt="Land for sale in Sedalia, MO."
                 width={610}
                 height={397}
               />
@@ -142,7 +142,7 @@ export default function Sliderland() {
               <Image
                 className={styles.imageSlide}
                 src={image6}
-                alt="land"
+                alt="Land for sale in Sedalia, MO."
                 width={610}
                 height={397}
               />
@@ -156,7 +156,7 @@ export default function Sliderland() {
               <Image
                 className={styles.imageSlide}
                 src={image7}
-                alt="land"
+                alt="Land for sale in Sedalia, MO."
                 width={610}
                 height={397}
               />
@@ -170,7 +170,7 @@ export default function Sliderland() {
               <Image
                 className={styles.imageSlide}
                 src={image8}
-                alt="land"
+                alt="Land for sale in Sedalia, MO."
                 width={610}
                 height={397}
               />
@@ -184,7 +184,7 @@ export default function Sliderland() {
               <Image
                 className={styles.imageSlide}
                 src={image9}
-                alt="land"
+                alt="Land for sale in Sedalia, MO."
                 width={610}
                 height={397}
               />
@@ -198,7 +198,7 @@ export default function Sliderland() {
               <Image
                 className={styles.imageSlide}
                 src={image10}
-                alt="land"
+                alt="Land for sale in Sedalia, MO."
                 width={610}
                 height={397}
               />
@@ -212,7 +212,7 @@ export default function Sliderland() {
               <Image
                 className={styles.imageSlide}
                 src={image1}
-                alt="land"
+                alt="Land for sale in Sedalia, MO."
                 width={610}
                 height={397}
               />

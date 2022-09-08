@@ -97,7 +97,7 @@ export default function Sliderrent() {
               <Image
                 className={styles.imageSlide}
                 src={image1}
-                alt="land"
+                alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
               />
@@ -111,7 +111,7 @@ export default function Sliderrent() {
               <Image
                 className={styles.imageSlide}
                 src={image2}
-                alt="slide2"
+                alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
               />
@@ -125,7 +125,7 @@ export default function Sliderrent() {
               <Image
                 className={styles.imageSlide}
                 src={image3}
-                alt="slide3"
+                alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
               />
@@ -140,7 +140,7 @@ export default function Sliderrent() {
                 className={styles.imageSlide}
                 id={styles.vertical}
                 src={image4}
-                alt="land"
+                alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
               />
@@ -154,7 +154,7 @@ export default function Sliderrent() {
               <Image
                 className={styles.imageSlide}
                 src={image5}
-                alt="land"
+                alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
               />
@@ -168,7 +168,7 @@ export default function Sliderrent() {
               <Image
                 className={styles.imageSlide}
                 src={image6}
-                alt="land"
+                alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
               />
@@ -182,7 +182,7 @@ export default function Sliderrent() {
               <Image
                 className={styles.imageSlide}
                 src={image7b}
-                alt="land"
+                alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
               />
@@ -196,7 +196,7 @@ export default function Sliderrent() {
               <Image
                 className={styles.imageSlide}
                 src={image7c}
-                alt="land"
+                alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
               />
@@ -210,7 +210,7 @@ export default function Sliderrent() {
               <Image
                 className={styles.imageSlide}
                 src={image7d}
-                alt="land"
+                alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
               />
@@ -224,7 +224,7 @@ export default function Sliderrent() {
               <Image
                 className={styles.imageSlide}
                 src={image8}
-                alt="land"
+                alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
               />
@@ -238,7 +238,7 @@ export default function Sliderrent() {
               <Image
                 className={styles.imageSlide}
                 src={image9}
-                alt="land"
+                alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
               />
@@ -252,7 +252,7 @@ export default function Sliderrent() {
               <Image
                 className={styles.imageSlide}
                 src={image10}
-                alt="land"
+                alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
               />
@@ -266,7 +266,7 @@ export default function Sliderrent() {
               <Image
                 className={styles.imageSlide}
                 src={image11}
-                alt="land"
+                alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
               />
@@ -280,7 +280,7 @@ export default function Sliderrent() {
               <Image
                 className={styles.imageSlide}
                 src={image12}
-                alt="land"
+                alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
               />
@@ -294,7 +294,7 @@ export default function Sliderrent() {
               <Image
                 className={styles.imageSlide}
                 src={image13}
-                alt="land"
+                alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
               />
@@ -308,7 +308,7 @@ export default function Sliderrent() {
               <Image
                 className={styles.imageSlide}
                 src={image14}
-                alt="land"
+                alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
               />
@@ -322,7 +322,7 @@ export default function Sliderrent() {
               <Image
                 className={styles.imageSlide}
                 src={image15}
-                alt="land"
+                alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
               />
@@ -336,7 +336,7 @@ export default function Sliderrent() {
               <Image
                 className={styles.imageSlide}
                 src={image16}
-                alt="land"
+                alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
               />
@@ -350,7 +350,7 @@ export default function Sliderrent() {
               <Image
                 className={styles.imageSlide}
                 src={image17}
-                alt="land"
+                alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
               />
@@ -364,7 +364,7 @@ export default function Sliderrent() {
               <Image
                 className={styles.imageSlide}
                 src={image18}
-                alt="land"
+                alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
               />
@@ -378,7 +378,7 @@ export default function Sliderrent() {
               <Image
                 className={styles.imageSlide}
                 src={image19}
-                alt="land"
+                alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
               />

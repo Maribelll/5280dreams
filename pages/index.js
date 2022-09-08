@@ -31,7 +31,7 @@ export default function Home() {
               <div className={styles.rent_img2}>
                 <Image
                   src="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1660753331/rent/_explore_xzwukj.jpg"
-                  alt=""
+                  alt="Class A RV for rent in Denver."
                   width={600}
                   height={329}
                   className={styles.image_index}
@@ -48,7 +48,7 @@ export default function Home() {
             <div className={styles.rent_img2}>
               <Image
                 src="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1660753331/rent/_explore_xzwukj.jpg"
-                alt=""
+                alt="Class A RV for rent in Denver."
                 width={600}
                 height={329}
                 className={styles.image_index}
@@ -69,7 +69,7 @@ export default function Home() {
                 <Image
                   className={styles.image_index}
                   src="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1660753406/rent/_build_f7dhz2.jpg"
-                  alt=""
+                  alt="Land for sale in Sedalia, MO"
                   width={600}
                   height={329}
                 />
@@ -85,7 +85,7 @@ export default function Home() {
               <Image
                 className={styles.image_index}
                 src="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1660753406/rent/_build_f7dhz2.jpg"
-                alt=""
+                alt="Land for sale in Sedalia, MO"
                 width={600}
                 height={329}
               />
@@ -103,7 +103,7 @@ export default function Home() {
                 <Image
                   className={styles.image_index}
                   src="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1660753341/rent/_live_k4avws.jpg"
-                  alt=""
+                  alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach"
                   width={600}
                   height={329}
                 />
@@ -119,7 +119,7 @@ export default function Home() {
             <div className={styles.rent_img}>
               <Image
                 src="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1660753341/rent/_live_k4avws.jpg"
-                alt=""
+                alt="Fully furnished 2 bed 2 bath house in North Port, FL minutes away from the beach"
                 width={600}
                 height={329}
                 className={styles.image_index}
