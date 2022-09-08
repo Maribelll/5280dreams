@@ -5,16 +5,6 @@ import Fancybox from "./Fancybox";
 
 import styles from "../../styles/slider.module.scss";
 import Image from "next/image";
-import image1 from "../../public/slider/land/image1.JPG";
-import image2 from "../../public/slider/land/image2.JPG";
-import image3 from "../../public/slider/land/image3.JPG";
-import image4 from "../../public/slider/land/image4.JPG";
-import image5 from "../../public/slider/land/image5.JPG";
-import image6 from "../../public/slider/land/image6.JPG";
-import image7 from "../../public/slider/land/image7.JPG";
-import image8 from "../../public/slider/land/image8.jpg";
-import image9 from "../../public/slider/land/image9.JPG";
-import image10 from "../../public/slider/land/image10.JPG";
 
 import "swiper/css";
 import "swiper/css/navigation";
