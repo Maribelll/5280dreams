@@ -7,7 +7,11 @@ import Layout from "../Components/Layout";
 
 export default function Contact() {
   return (
-    <Layout title="contact" keywords="" description="">
+    <Layout
+      title="cContact - 5280 Dream Properties"
+      keywords="contact 5280 dream properties"
+      description="Contact us to get more info or schedule a showing."
+    >
       <Head />
 
       <div className={styles.backgr}>
