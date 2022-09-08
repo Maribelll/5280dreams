@@ -4,8 +4,6 @@ import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout";
 
 import "@react-pdf-viewer/core/lib/styles/index.css";
 
-import Link from "next/link";
-
 export default function Rental() {
   const defaultLayoutPluginInstance = defaultLayoutPlugin();
   return (

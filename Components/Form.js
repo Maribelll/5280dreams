@@ -3,7 +3,7 @@ import style from "../styles/form.module.scss";
 import { useForm, ValidationError } from "@formspree/react";
 
 export default function Form() {
-  const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM);
+  const [state, handleSubmit] = useForm("mvoyzkgw");
 
   if (state.succeeded) {
     return (
