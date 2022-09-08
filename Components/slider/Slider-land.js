@@ -85,7 +85,9 @@ export default function Sliderland() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image2}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662642678/rent/slider-land/photo%20in%20land%20slider/image2_ol7l0i.jpg"
+                }
                 alt="Land for sale in Sedalia, MO."
                 width={610}
                 height={397}
@@ -99,7 +101,9 @@ export default function Sliderland() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image3}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662642678/rent/slider-land/photo%20in%20land%20slider/image3_c3ryf1.jpg"
+                }
                 alt="Land for sale in Sedalia, MO."
                 width={610}
                 height={397}
@@ -113,7 +117,9 @@ export default function Sliderland() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image4}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662642678/rent/slider-land/photo%20in%20land%20slider/image4_tdypcj.jpg"
+                }
                 alt="Land for sale in Sedalia, MO."
                 width={610}
                 height={397}
@@ -127,7 +133,9 @@ export default function Sliderland() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image5}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662642678/rent/slider-land/photo%20in%20land%20slider/image5_jfeh1s.jpg"
+                }
                 alt="Land for sale in Sedalia, MO."
                 width={610}
                 height={397}
@@ -141,7 +149,9 @@ export default function Sliderland() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image6}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662642678/rent/slider-land/photo%20in%20land%20slider/image6_wmngbf.jpg"
+                }
                 alt="Land for sale in Sedalia, MO."
                 width={610}
                 height={397}
@@ -155,7 +165,9 @@ export default function Sliderland() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image7}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662642679/rent/slider-land/photo%20in%20land%20slider/image7_eyacgm.jpg"
+                }
                 alt="Land for sale in Sedalia, MO."
                 width={610}
                 height={397}
@@ -169,7 +181,9 @@ export default function Sliderland() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image8}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662642679/rent/slider-land/photo%20in%20land%20slider/image8_xcaxfu.jpg"
+                }
                 alt="Land for sale in Sedalia, MO."
                 width={610}
                 height={397}
@@ -183,7 +197,9 @@ export default function Sliderland() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image9}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662642679/rent/slider-land/photo%20in%20land%20slider/image9_j2yssj.jpg"
+                }
                 alt="Land for sale in Sedalia, MO."
                 width={610}
                 height={397}
@@ -197,7 +213,9 @@ export default function Sliderland() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image10}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662642679/rent/slider-land/photo%20in%20land%20slider/image10_noyg3e.jpg"
+                }
                 alt="Land for sale in Sedalia, MO."
                 width={610}
                 height={397}
@@ -211,7 +229,9 @@ export default function Sliderland() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image1}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662642678/rent/slider-land/photo%20in%20land%20slider/image1_dsqls0.jpg"
+                }
                 alt="Land for sale in Sedalia, MO."
                 width={610}
                 height={397}

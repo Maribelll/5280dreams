@@ -8,29 +8,6 @@ import Fancybox from "./Fancybox";
 import styles from "../../styles/slider.module.scss";
 
 import Image from "next/image";
-import image1 from "../../public/slider/rent/1.JPG";
-import image2 from "../../public/slider/rent/2.JPG";
-import image3 from "../../public/slider/rent/3.JPG";
-import image4 from "../../public/slider/rent/4.JPG";
-import image5 from "../../public/slider/rent/5.JPG";
-import image6 from "../../public/slider/rent/6.JPG";
-import image7b from "../../public/slider/rent/7b.JPG";
-import image7c from "../../public/slider/rent/7c.JPG";
-import image7d from "../../public/slider/rent/7d.JPG";
-import image8 from "../../public/slider/rent/8.jpg";
-import image9 from "../../public/slider/rent/9.jpg";
-
-import image10 from "../../public/slider/rent/10.JPG";
-
-import image11 from "../../public/slider/rent/11.JPG";
-import image12 from "../../public/slider/rent/12.JPG";
-import image13 from "../../public/slider/rent/13.JPG";
-import image14 from "../../public/slider/rent/14.JPG";
-import image15 from "../../public/slider/rent/15.JPG";
-import image16 from "../../public/slider/rent/16.JPG";
-import image17 from "../../public/slider/rent/17.JPG";
-import image18 from "../../public/slider/rent/18.JPG";
-import image19 from "../../public/slider/rent/20a.JPG";
 
 export default function Sliderrent() {
   return (
