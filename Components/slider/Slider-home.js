@@ -5,55 +5,6 @@ import Fancybox from "./Fancybox";
 
 import styles from "../../styles/slider.module.scss";
 import Image from "next/image";
-import image1 from "../../public/slider/home/1.JPG";
-import image2 from "../../public/slider/home/2.JPG";
-import image3 from "../../public/slider/home/3.JPG";
-import image4 from "../../public/slider/home/4.JPG";
-import image5 from "../../public/slider/home/5.JPG";
-import image6 from "../../public/slider/home/6.JPG";
-import image7 from "../../public/slider/home/7.JPG";
-import image8 from "../../public/slider/home/8.JPG";
-import image9 from "../../public/slider/home/9.JPG";
-import image10 from "../../public/slider/home/10.JPG";
-
-import image11 from "../../public/slider/home/11.JPG";
-import image12 from "../../public/slider/home/12.JPG";
-import image13 from "../../public/slider/home/13.JPG";
-import image14 from "../../public/slider/home/14.JPG";
-import image15 from "../../public/slider/home/15.JPG";
-import image16 from "../../public/slider/home/16.JPG";
-import image17 from "../../public/slider/home/17.JPG";
-import image18 from "../../public/slider/home/18.JPG";
-import image19 from "../../public/slider/home/19.JPG";
-import image20 from "../../public/slider/home/20.JPG";
-
-import image21 from "../../public/slider/home/21.JPG";
-import image22 from "../../public/slider/home/22.JPG";
-import image23 from "../../public/slider/home/23.JPG";
-import image24 from "../../public/slider/home/24.JPG";
-import image25 from "../../public/slider/home/25.JPG";
-import image26 from "../../public/slider/home/26.jpg";
-import image27 from "../../public/slider/home/27.JPG";
-import image28 from "../../public/slider/home/28.JPG";
-import image29 from "../../public/slider/home/29.JPG";
-import image30 from "../../public/slider/home/30.JPG";
-
-import image31 from "../../public/slider//home/31.JPG";
-import image32 from "../../public/slider/home/32.JPG";
-import image33 from "../../public/slider/home/33.JPG";
-import image34 from "../../public/slider/home/34.JPG";
-import image35 from "../../public/slider/home/35.JPG";
-import image36 from "../../public/slider/home/36.JPG";
-import image37 from "../../public/slider/home/37.JPG";
-import image38 from "../../public/slider/home/38.JPG";
-import image39 from "../../public/slider/home/39.JPG";
-import image40 from "../../public/slider/home/40.JPG";
-
-import image41 from "../../public/slider/home/41.jpg";
-import image42 from "../../public/slider/home/42.jpg";
-import image43 from "../../public/slider/home/43.JPG";
-import image44 from "../../public/slider/home/44.jpg";
-import image45 from "../../public/slider/home/45.JPG";
 
 import "swiper/css";
 import "swiper/css/navigation";
