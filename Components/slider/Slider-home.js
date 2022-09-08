@@ -64,8 +64,9 @@ export default function Sliderhome() {
     <div className={styles.container_slider}>
       <Fancybox>
         <Swiper
+          className={styles.swiper}
           style={{
-            maxWidth: "1346px",
+            maxWidth: "2300px",
           }}
           modules={[Navigation]}
           centeredSlides={true}
@@ -77,9 +78,23 @@ export default function Sliderhome() {
           // }}
           navigation={{
             clickable: true,
+            // nextEl: ".swiper-button-next",
+            // prevEl: ".swiper-button-prev",
           }}
           // loop={true}
           breakpoints={{
+            2100: {
+              spaceBetween: 71,
+              slidesPerView: 3,
+            },
+            2050: {
+              spaceBetween: 71,
+              slidesPerView: 3,
+            },
+            1700: {
+              spaceBetween: 71,
+              slidesPerView: 2.5,
+            },
             1445: {
               spaceBetween: 71,
               slidesPerView: 2,
@@ -89,12 +104,15 @@ export default function Sliderhome() {
               slidesPerView: 2,
             },
             760: {
-              spaceBetween: 90,
+              spaceBetween: 71,
               slidesPerView: 1.5,
             },
+            600: {
+              spaceBetween: 71,
+              slidesPerView: 1,
+            },
             400: {
-              spaceBetween: 20,
-              slidesPerView: 1.1,
+              slidesPerView: 1,
             },
           }}
         >
