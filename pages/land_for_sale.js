@@ -9,7 +9,11 @@ import Layout from "../Components/Layout";
 
 export default function Land() {
   return (
-    <Layout title="land" keywords="" description="">
+    <Layout
+      title="Land for Sale - 5280 Dream Properties"
+      keywords="land for sale in sedalia, sedalia land for sale, buy land in sedalia mo, land in sedalia, build house in sedalia"
+      description="H2.2 acre lot in a new subdivision of Sedalia, MO."
+    >
       <Head />
 
       <div className={styles.backgr}>

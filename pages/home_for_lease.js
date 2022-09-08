@@ -8,7 +8,11 @@ import Layout from "../Components/Layout";
 
 export default function Lease() {
   return (
-    <Layout title="Lease" keywords="" description="">
+    <Layout
+      title="Home for Lease- 5280 Dream Properties"
+      keywords="house for rent in north port, north port house for rent, house rental north port, apartment rental north port, beach house rental north port, 2 bed 2 bath rental north port, places to rent in north port fl"
+      description="Fully furnished 3bd/2ba home in North Port, FL."
+    >
       <Head />
 
       <div className={styles.backgr}>

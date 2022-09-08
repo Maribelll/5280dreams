@@ -9,7 +9,11 @@ import Layout from "../Components/Layout";
 
 export default function Rental() {
   return (
-    <Layout title="rv" keywords="" description="">
+    <Layout
+      title="RV Rental - 5280 Dream Properties"
+      keywords="rent rv in Denver, denver rv rental, motorhome rental denver, 8 people rv rental denver, class a RV rental, rent a camper denver"
+      description="High-end Class A RV that sleeps up to 8 people."
+    >
       <Head />
 
       <div className={styles.backgr}>

@@ -4,15 +4,16 @@ import styles from "../styles/home.module.scss";
 import { Menu } from "../Components/Menu";
 import { Footer } from "../Components/Footer";
 import Link from "next/link";
+import Layout from "../Components/Layout";
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>Dream</title>
-
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <Layout
+      title="5280 Dream Properties: Land for Sale, Home for Lease, RV Rental"
+      keywords="land for sale in sedalia, house for rent north port, rent rv denver"
+      description="Find a place to call home. Home by the beach, land in the country or tour the US in an RV."
+    >
+      <Head />
 
       <div className={styles.background}>
         <Menu />
@@ -128,6 +129,6 @@ export default function Home() {
         </div>
       </Link>
       <Footer />
-    </>
+    </Layout>
   );
 }
