@@ -96,7 +96,9 @@ export default function Sliderrent() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image1}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662637397/rent/slider-auto/photo%20in%20rv%20slide/1_oibq4i.jpg"
+                }
                 alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
@@ -110,7 +112,9 @@ export default function Sliderrent() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image2}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662637397/rent/slider-auto/photo%20in%20rv%20slide/2_ln1b1u.jpg"
+                }
                 alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
@@ -124,7 +128,9 @@ export default function Sliderrent() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image3}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662637397/rent/slider-auto/photo%20in%20rv%20slide/3_twnb3i.jpg"
+                }
                 alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
@@ -138,8 +144,9 @@ export default function Sliderrent() {
             >
               <Image
                 className={styles.imageSlide}
-                id={styles.vertical}
-                src={image4}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662637397/rent/slider-auto/photo%20in%20rv%20slide/4_jr60qm.jpg"
+                }
                 alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
@@ -153,7 +160,9 @@ export default function Sliderrent() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image5}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662637397/rent/slider-auto/photo%20in%20rv%20slide/5_cdxz1p.jpg"
+                }
                 alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
@@ -167,7 +176,9 @@ export default function Sliderrent() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image6}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662637397/rent/slider-auto/photo%20in%20rv%20slide/6_qbq0t6.jpg"
+                }
                 alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
@@ -181,7 +192,9 @@ export default function Sliderrent() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image7b}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662637398/rent/slider-auto/photo%20in%20rv%20slide/7b_h9mk9p.jpg"
+                }
                 alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
@@ -195,7 +208,9 @@ export default function Sliderrent() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image7c}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662637398/rent/slider-auto/photo%20in%20rv%20slide/7c_klnkq2.jpg"
+                }
                 alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
@@ -209,7 +224,9 @@ export default function Sliderrent() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image7d}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662637398/rent/slider-auto/photo%20in%20rv%20slide/7d_bu37tn.jpg"
+                }
                 alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
@@ -223,7 +240,9 @@ export default function Sliderrent() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image8}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662637398/rent/slider-auto/photo%20in%20rv%20slide/8_weue57.jpg"
+                }
                 alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
@@ -237,7 +256,9 @@ export default function Sliderrent() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image9}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662637398/rent/slider-auto/photo%20in%20rv%20slide/9_dd7nfn.jpg"
+                }
                 alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
@@ -251,7 +272,9 @@ export default function Sliderrent() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image10}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662637398/rent/slider-auto/photo%20in%20rv%20slide/10_jozlt4.jpg"
+                }
                 alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
@@ -265,7 +288,9 @@ export default function Sliderrent() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image11}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662637398/rent/slider-auto/photo%20in%20rv%20slide/11_uwgodk.jpg"
+                }
                 alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
@@ -279,7 +304,9 @@ export default function Sliderrent() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image12}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662637398/rent/slider-auto/photo%20in%20rv%20slide/12_auxtsh.jpg"
+                }
                 alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
@@ -293,7 +320,9 @@ export default function Sliderrent() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image13}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662637398/rent/slider-auto/photo%20in%20rv%20slide/13_upmlmt.jpg"
+                }
                 alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
@@ -307,7 +336,9 @@ export default function Sliderrent() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image14}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662637398/rent/slider-auto/photo%20in%20rv%20slide/14_pf4mzq.jpg"
+                }
                 alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
@@ -321,7 +352,9 @@ export default function Sliderrent() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image15}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662637398/rent/slider-auto/photo%20in%20rv%20slide/15_jm9fgu.jpg"
+                }
                 alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
@@ -335,7 +368,9 @@ export default function Sliderrent() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image16}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662637398/rent/slider-auto/photo%20in%20rv%20slide/16_i20hjw.jpg"
+                }
                 alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
@@ -349,7 +384,9 @@ export default function Sliderrent() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image17}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662637399/rent/slider-auto/photo%20in%20rv%20slide/17_nfwwpg.jpg"
+                }
                 alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
@@ -363,7 +400,9 @@ export default function Sliderrent() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image18}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662637399/rent/slider-auto/photo%20in%20rv%20slide/18_dfwp8l.jpg"
+                }
                 alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
@@ -377,7 +416,9 @@ export default function Sliderrent() {
             >
               <Image
                 className={styles.imageSlide}
-                src={image19}
+                src={
+                  "https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662637397/rent/slider-auto/photo%20in%20rv%20slide/1_oibq4i.jpg"
+                }
                 alt="Class A RV for rent in Denver."
                 width={610}
                 height={397}
