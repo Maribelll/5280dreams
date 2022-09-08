@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@fancyapps/ui": "^4.0.31",
-    "@formspree/react": "^2.3.4-beta.2",
+    "@formspree/react": "^2.4.0",
     "@pdftron/webviewer": "^8.8.0",
     "@react-pdf-viewer/core": "^3.7.0",
     "@react-pdf-viewer/default-layout": "^3.7.0",
