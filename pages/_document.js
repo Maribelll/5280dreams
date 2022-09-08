@@ -23,6 +23,7 @@ export default class MyDocument extends Document {
             property="og:image"
             content="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1662635499/rent/meta5280_dxzpek.jpg"
           />
+          <meta property="og:image:alt" content="5280 Dream Properties" />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="627" />
         </Head>
