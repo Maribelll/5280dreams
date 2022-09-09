@@ -1,0 +1,6 @@
+User-agent: *
+Dissalow: /plat_map.js
+Dissalow: /full_features_list.js
+Dissalow: /full_rv_overview_from_manufacturer.js
+
+
